@@ -103,7 +103,7 @@ class ConstructUMAPGraph:
 class UMAPLoss(nn.Module):
 
     def __init__(self, device='cpu', min_dist=0.1, batch_size=1000, negative_sample_rate=5,
-                 edge_weight=None, parametric_embedding=True, repulsion_strength=1.0):
+                 edge_weight=None, repulsion_strength=1.0):
 
         """
         batch_size : int
